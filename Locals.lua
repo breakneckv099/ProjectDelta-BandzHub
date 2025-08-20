@@ -1,22 +1,3 @@
-local DupeTab = Window1:AddTab('  Dupe Method  ')
-local CombatTab = Window1:AddTab('  Combat  ')
-local VisualsTab = Window1:AddTab('  Visuals  ')
-local MiscTab = Window1:AddTab('  Misc  ')
-local CreditsTab = Window1:AddTab('  Credits  ')
-local SettingsTab = library:CreateSettingsTab(Window1)
-
-local DupeFuncSection = DupeTab:AddSection('Dupe Stuff:', 1)
-local DupeStepsSection = DupeTab:AddSection('Dupe Guide:', 2)
-local AimbotSection = CombatTab:AddSection('Combat Stuff:', 1)
-local AimbotSettings = CombatTab:AddSection('Combat Settings:', 2)
-local GunSection = CombatTab:AddSection('Gun Modifiers:', 1)
-local VisualsSection = VisualsTab:AddSection('Player/Bot ESPs:', 1)
-local Visuals2Section = VisualsTab:AddSection('Other ESPs:', 2)
-local MiscSection = MiscTab:AddSection('Visual/Player Stuff:', 1)
-local SkinSection = MiscTab:AddSection('Skin Spoofer (Local):', 2)
-local CreditsSection = CreditsTab:AddSection('Credits:', 1)
-local Credits2Section = CreditsTab:AddSection('Suggestion Credits:', 2)
-
 local Players = game:GetService('Players')
 local LocalPlayer = Players.LocalPlayer
 local RunService = game:GetService('RunService')
